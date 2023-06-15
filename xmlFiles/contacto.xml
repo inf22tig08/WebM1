@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="contacto.xsd">
+  <informacion>
+    <titulo>Bienvenido a la página de Animales en peligro de extincion</titulo>
+    <descripcion>Descubre el fascinante mundo de los animales en extincion y como darse cuenta de su importancia.</descripcion>
+    <autor>Jesus Reyes de Toro y Rafael Fernandez Nevado</autor>
+    <fecha>2023-06-11</fecha>
+  </informacion>
+  
+  <contacto>
+    <nombre>Jesus Reyes de Toro</nombre>
+    <email>reyesdetoro@gmail.com</email>
+    <telefono>601245689</telefono>
+  </contacto>
+
+   <contacto>
+    <nombre>Rafaell Fernandez Nevado</nombre>
+    <email>rafaelfernandeznev@gmail.com</email>
+    <telefono>671456719</telefono>
+  </contacto>
+  
+  
+  <redes_sociales>
+    <red_social>
+      <nombre>Facebook</nombre>
+      <enlace>https://www.facebook.com/</enlace>
+    </red_social>
+    <red_social>
+      <nombre>Twitter</nombre>
+      <enlace>https://www.twitter.com/ejemplo</enlace>
+    </red_social>
+    <red_social>
+      <nombre>GitHub</nombre>
+      <enlace>https://www.instagram.com/ejemplo</enlace>
+    </red_social>
+  </redes_sociales>
+</animales>

@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/leon.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid yellow; /* Agregamos el borde amarillo */
+
+    height: 100vh;
+  }
+  
+  section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Añadimos posición relativa a la sección */
+  }
+
+  footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Añadimos posición relativa a la sección */
+  }
+ 
+  
+
+  * {
+    margin: 20px;
+  }
+
+  header {
+    text-align: center;
+    color: yellow;
+    font-size: 36px; /* Aumentamos el tamaño de la fuente */
+
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Arial";
+
+  }
+  
+  li {
+    margin-bottom: 15px;
+    font-size: 20px; /* Aumentamos el tamaño de la fuente */
+    font-family: "Arial";
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #acerca {
+    position: absolute; /* Añadimos posición absoluta */
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    color: yellow;
+    font-family: "Brush Script MT"; 
+
+  }
+  
+  hr {
+    width: 70%;
+    margin: auto;
+    border: none;
+    border-top: 1px solid black;
+  }
+  

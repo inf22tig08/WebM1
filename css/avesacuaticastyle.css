@@ -1,0 +1,114 @@
+.container {
+    margin: 20px;
+  }
+  
+  .additional-info {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .additional-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .left-text,
+  .right-text {
+    width: 45%;
+  }
+  
+  .left-text h2,
+  .right-text h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .left-text p,
+  .right-text p {
+    text-align: justify;
+  }
+
+  body {
+    background-image: url("../images/avesacuaticas.jpeg");
+    background-size: cover;
+    margin: 30px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    text-align: justify;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  audio,
+  video {
+    width: 100%;
+  }
+  thead th {
+    text-align: center;
+  }
+
+  .additional-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-text {
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .info-text.left {
+    text-align: center;
+    margin-right: 10px;
+    
+  }
+  
+  .info-text.right {
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .additional-info img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  header {
+    text-align: center;
+    color: rgb(0, 113, 128);
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

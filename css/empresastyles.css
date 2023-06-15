@@ -1,0 +1,98 @@
+  body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-image: url("../images/empresas.jpg");
+    }
+
+    *{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.5;
+      text-align: justify;
+
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      background: url("../images/cerdeta.jpeg") no-repeat;
+      width: 180px;
+      height: 106px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 span{
+      display: none;
+    }
+
+
+   h1 a{
+      display: block;
+      width: 100%;
+      height: 100%;
+   }
+    section {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    h2{
+      text-align: center;
+    }
+    .image-left {
+      float: left;
+      margin-right: 20px;
+    }
+    
+    .content-wrapper {
+      clear: both;
+      overflow: auto;
+    }
+    
+    .text-wrapper {
+      margin-top: 0;
+    }
+    
+    /* Estilos adicionales según tu preferencia */
+    #introduccion {
+      margin-top: 30px;
+    }
+
+    #introduccion ol {
+      line-height: 1.5;
+    }
+
+    #leyes image{
+      align-items: center;
+      align-self: center;
+      text-align: center;
+    }
+
+    #leyes > figure{
+      font-size: 10px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    mark{
+      background-color: red;
+    }

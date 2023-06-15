@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="animales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="informacion" type="informacionType"/>
+        <xs:element name="contacto" type="contactoType" maxOccurs="2"/>
+        <xs:element name="redes_sociales" type="redesSocialesType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="informacionType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="autor" type="xs:string"/>
+      <xs:element name="fecha" type="xs:date"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="contactoType" >
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="telefono" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="redesSocialesType">
+    <xs:sequence>
+      <xs:element name="red_social" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="enlace" type="xs:anyURI"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
